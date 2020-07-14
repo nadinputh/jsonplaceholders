@@ -1,34 +1,32 @@
 {
-  "stay": {
-    "checkIn": "String(Date())",
-    "checkOut": "String(Date())",
-    "shiftDays": "String()"
-  },
-  "occupancies": [
+  "posts": [
     {
-      "rooms": 1,
-      "adults": 2,
-      "children": 0
+      "id": 1,
+      "title": "Post 1"
+    },
+    {
+      "id": 2,
+      "title": "Post 2"
+    },
+    {
+      "id": 3,
+      "title": "Post 3"
     }
   ],
-  "destination": {
-    "destinationCode": "String()",
-    "hotelCode": "String()"
-  },
-  "geolocation": {
-    "latitude": 0.0,
-    "longitude": 0.0,
-    "raduis": 0
-  },
-  "reviews": [
+  "comments": [
     {
-      "type": "String()",
-      "minRate": 0,
-      "minReviewCount": 1
+      "id": 1,
+      "body": "some comment",
+      "postId": 1
+    },
+    {
+      "id": 2,
+      "body": "some comment",
+      "postId": 1
     }
   ],
-  "keywords": {
-    "keyword": [0],
-    "allIncluded": false
+  "profile": {
+    "name": "typicode",
+    "type": "USER"
   }
 }
